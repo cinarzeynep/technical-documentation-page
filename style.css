@@ -1,0 +1,35 @@
+* {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+a {
+    color: darkorange;
+    margin: 1px 3px;
+}
+
+#navbar header {
+    margin-right: 10px;
+}
+
+.main-section {
+    margin: 10px auto;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.main-section header {
+    color: cornflowerblue;
+    font-size: 30px;
+}
+
+@media (max-width: 760px) {
+    a {
+        text-decoration: none;
+    }
+}
